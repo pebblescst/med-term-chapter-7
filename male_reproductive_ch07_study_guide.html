@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapter 7 — Male Reproductive System | Medical Terminology Study Guide</title>
+<style>
+:root{
+  --bg-primary:#ffffff;--bg-secondary:#f3faf6;--bg-success:#e6f4ea;
+  --bg-warning:#fff8e1;--bg-danger:#fce8e8;--bg-info:#e8f0fc;--bg-muted:#f4f8f6;
+  --text-primary:#111111;--text-secondary:#555555;--text-muted:#888888;
+  --text-success:#1b5e20;--text-warning:#854F0B;--text-danger:#9c2020;--text-info:#1a5c9c;
+  --border:rgba(0,0,0,0.18);--border-light:rgba(0,0,0,0.09);
+  --grn:#0F6E56;--grnLt:#D4EDDA;--r:8px;--rl:12px;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg-primary:#1e1e1e;--bg-secondary:#0d1f16;--bg-success:#0d2a1a;
+  --bg-warning:#2a1f00;--bg-danger:#2a0d0d;--bg-info:#0d2a45;--bg-muted:#1a2a20;
+  --text-primary:#eeeeee;--text-secondary:#aaaaaa;--text-muted:#666666;
+  --text-success:#81c784;--text-warning:#ffcc66;--text-danger:#e57373;--text-info:#7ab3e8;
+  --border:rgba(255,255,255,0.15);--border-light:rgba(255,255,255,0.08);
+  --grnLt:#0d2a1a;
+}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-secondary);color:var(--text-primary);line-height:1.6;padding:0 0 3rem}
+.page-header{background:var(--bg-primary);border-bottom:0.5px solid var(--border);padding:1.25rem 2rem;margin-bottom:1.5rem}
+.page-header h1{font-size:22px;font-weight:500}.page-header p{font-size:14px;color:var(--text-secondary);margin-top:3px}
+.container{max-width:900px;margin:0 auto;padding:0 1.25rem}.sg{padding:.5rem 0 2rem}
+.tab-bar{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:1.25rem}
+.tab-btn{padding:6px 13px;border-radius:var(--r);border:0.5px solid var(--border);background:var(--bg-primary);color:var(--text-secondary);font-size:13px;cursor:pointer;transition:all .15s}
+.tab-btn.active{background:var(--bg-success);color:var(--text-success);border-color:var(--grn)}
+.tab-btn:hover:not(.active){background:var(--bg-muted)}
+.sec{display:none}.sec.active{display:block}
+.sec-hdr{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--text-secondary);margin:1.4rem 0 .65rem;padding-bottom:4px;border-bottom:0.5px solid var(--border-light)}
+.pg{font-size:14px;color:var(--text-secondary);line-height:1.7;margin-bottom:1rem;background:var(--bg-muted);padding:.75rem 1rem;border-radius:var(--r)}
+.stat-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1.25rem}
+.stat-chip{padding:5px 12px;border-radius:var(--r);border:0.5px solid var(--border-light);font-size:12px;background:var(--bg-primary)}.stat-chip strong{font-weight:600}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px}
+.ccard{background:var(--bg-primary);border:0.5px solid var(--border-light);border-radius:var(--rl);padding:.9rem 1.1rem}
+.ccard .ctitle{font-size:14px;font-weight:600;color:var(--text-primary);margin-bottom:5px}
+.ccard .cwt{font-size:11px;font-weight:600;padding:2px 7px;border-radius:var(--r);display:inline-block;margin-bottom:6px}
+.ccard .cdef{font-size:12px;color:var(--text-secondary);line-height:1.55}
+.dtable{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:.5rem;table-layout:fixed;background:var(--bg-primary);border-radius:var(--rl);overflow:hidden}
+.dtable th{text-align:left;padding:8px 12px;background:var(--bg-muted);border-bottom:0.5px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.05em}
+.dtable td{padding:8px 12px;border-bottom:0.5px solid var(--border-light);vertical-align:top;color:var(--text-secondary)}
+.dtable tr:last-child td{border-bottom:none}.dtable tr:hover td{background:var(--bg-secondary)}
+.dtable .wp{font-weight:600;font-style:italic;color:var(--text-primary);font-size:14px}.dtable .mean{font-weight:600;color:var(--text-primary)}
+.flow-chain{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:1rem}
+.flow-node{padding:7px 12px;border-radius:var(--r);font-size:12px;font-weight:600;border:0.5px solid;text-align:center}
+.cl-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(195px,1fr));gap:8px;margin-bottom:.75rem}
+.cl-card{background:var(--bg-primary);border:0.5px solid var(--border-light);border-radius:var(--rl);padding:.75rem 1rem}
+.cl-term{font-size:13px;font-weight:600;color:var(--text-primary);margin-bottom:2px}
+.cl-break{font-size:10px;color:var(--grn);margin-bottom:3px;font-style:italic}.cl-def{font-size:11px;color:var(--text-secondary);line-height:1.5}
+.fc-controls{display:flex;align-items:center;gap:10px;margin-bottom:1.25rem;flex-wrap:wrap}
+.fc-sel{padding:6px 10px;border-radius:var(--r);border:1px solid var(--border);background:var(--bg-primary);color:var(--text-primary);font-size:14px}
+.flashcard{background:var(--bg-primary);border:1px solid var(--border);border-radius:var(--rl);padding:1.75rem;min-height:175px;display:flex;flex-direction:column;justify-content:center;align-items:center;cursor:pointer;position:relative}
+.flashcard:hover{border-color:var(--grn)}
+.fc-badge{position:absolute;top:11px;left:13px;font-size:11px;padding:2px 7px;border-radius:var(--r);font-weight:600}
+.fc-front{font-size:21px;font-weight:500;text-align:center;color:var(--text-primary)}
+.fc-back{display:none;text-align:center}.fc-back .meaning{font-size:16px;font-weight:500;color:var(--text-primary);margin-bottom:5px}.fc-back .example{font-size:12px;color:var(--text-secondary)}
+.fc-hint{font-size:12px;color:var(--text-muted);margin-top:.75rem}.fc-prog{font-size:13px;color:var(--text-secondary);margin-left:auto}
+.fc-actions{display:flex;gap:8px;margin-top:.9rem;flex-wrap:wrap;justify-content:center}
+.btn{padding:7px 16px;border-radius:var(--r);border:1px solid var(--border);background:var(--bg-primary);color:var(--text-primary);font-size:14px;cursor:pointer;transition:all .15s}.btn:hover{background:var(--bg-muted)}
+.btn-ok{border-color:#1A7A52;color:var(--text-success)}.btn-ok:hover{background:var(--bg-success)}
+.btn-no{border-color:#c62828;color:var(--text-danger)}.btn-no:hover{background:var(--bg-danger)}
+.fc-score{font-size:13px;color:var(--text-secondary);margin-top:.75rem}
+.quiz-q{background:var(--bg-muted);border-radius:var(--rl);padding:1rem 1.15rem;margin-bottom:1rem;font-size:15px;font-weight:500;line-height:1.5}
+.quiz-opts{display:flex;flex-direction:column;gap:7px;margin-bottom:1rem}
+.qopt{padding:9px 13px;border-radius:var(--r);border:1px solid var(--border);background:var(--bg-primary);color:var(--text-primary);font-size:14px;cursor:pointer;text-align:left;transition:all .15s}
+.qopt:hover:not(:disabled){background:var(--bg-muted)}.qopt.correct{background:var(--bg-success);border-color:#1A7A52;color:var(--text-success)}.qopt.wrong{background:var(--bg-danger);border-color:#c62828;color:var(--text-danger)}
+.qfb{font-size:13px;margin-bottom:.9rem;min-height:16px}.qctr{font-size:12px;color:var(--text-muted)}
+.score-wrap{background:var(--bg-muted);border-radius:var(--rl);padding:2rem;text-align:center}
+.score-num{font-size:40px;font-weight:500}.score-lbl{font-size:14px;color:var(--text-secondary);margin-top:4px}
+</style>
+</head>
+<body>
+<div class="page-header"><div style="max-width:900px;margin:0 auto">
+<h1>Chapter 7 &#8212; Male Reproductive System</h1>
+<p>Medical Terminology &nbsp;&middot;&nbsp; 7 Prefixes &nbsp;&middot;&nbsp; 7 Suffixes &nbsp;&middot;&nbsp; 16 Combining Forms &nbsp;&middot;&nbsp; 22 Key Terms &nbsp;&middot;&nbsp; Testis has FOUR combining forms</p>
+</div></div>
+<div class="container"><div class="sg">
+<div class="tab-bar">
+  <button class="tab-btn active" onclick="showTab('overview',this)">Overview</button>
+  <button class="tab-btn" onclick="showTab('anatomy',this)">Anatomy</button>
+  <button class="tab-btn" onclick="showTab('wordparts',this)">Word Parts</button>
+  <button class="tab-btn" onclick="showTab('combining',this)">Combining Forms</button>
+  <button class="tab-btn" onclick="showTab('clinical',this)">Clinical Terms</button>
+  <button class="tab-btn" onclick="showTab('procedures',this)">Procedures</button>
+  <button class="tab-btn" onclick="showTab('flashcards',this)">Flashcards</button>
+  <button class="tab-btn" onclick="showTab('quiz',this)">Quiz</button>
+</div>
+<div class="sec active" id="tab-overview">
+
+<div class="stat-row"><span class="stat-chip"><strong>7</strong> prefixes</span><span class="stat-chip"><strong>7</strong> suffixes</span><span class="stat-chip"><strong>16</strong> combining forms</span><span class="stat-chip"><strong>22</strong> key terms</span><span class="stat-chip"><strong>23</strong> A&amp;P terms</span><span class="stat-chip"><strong>4</strong> testis CFs</span></div>
+<div class="pg">Chapter 7 covers the <strong>male reproductive system</strong>. Function: reproduction &mdash; providing half the genetic information. Specialties: <em>Andrology</em> (male reproductive medicine) and <em>Urology</em> (urologist). The testis has FOUR combining forms (orchid/o, orchi/o, orch/o, test/o). Most forgotten CF: <strong>balan/o</strong> = glans penis.</div>
+<div class="sec-hdr">Route of sperm</div>
+<div class="flow-chain">
+<div class="flow-node" style="background:var(--bg-success);border-color:#1A7A52;color:var(--text-success)">Testes (test/o, orchid/o)</div>
+<span style="font-size:16px;color:var(--text-muted)">&rarr;</span>
+<div class="flow-node" style="background:var(--bg-success);border-color:#1A7A52;color:var(--text-success)">Epididymis (epididym/o)</div>
+<span style="font-size:16px;color:var(--text-muted)">&rarr;</span>
+<div class="flow-node" style="background:var(--bg-info);border-color:#185FA5;color:var(--text-info)">Vas deferens (vas/o)</div>
+<span style="font-size:16px;color:var(--text-muted)">&rarr;</span>
+<div class="flow-node" style="background:var(--bg-warning);border-color:#854F0B;color:var(--text-warning)">Seminal vesicle (vesicul/o)</div>
+<span style="font-size:16px;color:var(--text-muted)">&rarr;</span>
+<div class="flow-node" style="background:var(--bg-warning);border-color:#854F0B;color:var(--text-warning)">Ejaculatory duct</div>
+<span style="font-size:16px;color:var(--text-muted)">&rarr;</span>
+<div class="flow-node" style="background:var(--bg-muted);border-color:var(--border);color:var(--text-secondary)">Urethra (urethr/o)</div>
+<span style="font-size:16px;color:var(--text-muted)">&rarr;</span>
+<div class="flow-node" style="background:var(--bg-muted);border-color:var(--border);color:var(--text-secondary)">Urinary meatus</div>
+</div>
+<div class="sec-hdr">Parenchymal vs stromal tissue</div>
+<div class="card-grid">
+<div class="ccard"><span class="cwt" style="background:var(--bg-success);color:var(--text-success)">Parenchymal</span><div class="ctitle">Gonads (testes) &mdash; the workers</div><div class="cdef">Only the GONADS (testes, gonad/o) are parenchymal &mdash; they do the functional work. Two roles: (1) produce SPERMATOZOA in seminiferous tubules (spermatogenesis); (2) produce TESTOSTERONE from Leydig cells (endocrine). Gametes = reproductive cells (sperm).</div></div>
+<div class="ccard"><span class="cwt" style="background:var(--bg-info);color:var(--text-info)">Stromal</span><div class="ctitle">Glands, ducts, nerves</div><div class="cdef">All other structures support the gonads: scrotum (scrot/o), epididymis (epididym/o), vas deferens (vas/o), spermatic cord, seminal vesicles (vesicul/o), prostate (prostat/o), bulbourethral glands, ejaculatory duct, penis (pen/i, phall/o), glans penis (balan/o), prepuce (preputi/o).</div></div>
+</div>
+<div class="sec-hdr">A&amp;P terms</div>
+<table class="dtable"><colgroup><col style="width:22%"><col style="width:78%"></colgroup>
+<thead><tr><th>Term</th><th>Definition</th></tr></thead>
+<tbody>
+<tr><td class="mean">Coitus / Copulation</td><td>Sexual intercourse. Three terms used interchangeably: coitus = copulation = sexual intercourse. Conception = fertilization of an ovum by a spermatozoon. coitus from Latin coïre = to come together.</td></tr>
+<tr><td class="mean">Ductus deferens</td><td>The vas deferens (vas/o) &mdash; muscular tube carrying sperm from epididymis toward ejaculatory duct. ~45 cm. Part of the spermatic cord. Site of vasectomy (surgical cutting for sterilization). Also called vas deferens.</td></tr>
+<tr><td class="mean">Epididymis</td><td>Coiled tube (epididym/o) on posterior surface of each testis. Functions: sperm maturation (~12 days to gain motility) and storage until ejaculation. Epididymitis = epididym/o + -itis = inflammation.</td></tr>
+<tr><td class="mean">Foreskin / Prepuce</td><td>Fold of skin (preputi/o, posth/o) covering glans penis. Removed in circumcision (circum- + -cision). Phimosis = non-retractable prepuce. Paraphimosis = retracted prepuce cannot return = emergency.</td></tr>
+<tr><td class="mean">Gametes</td><td>Reproductive cells (sex cells). Male gamete = spermatozoon (plural: spermatozoa). Each carries 23 chromosomes (haploid). Fertilization restores 46 chromosomes (diploid). Produced in gonads by meiosis.</td></tr>
+<tr><td class="mean">Glans penis</td><td>Rounded distal tip of penis (balan/o). Contains external urethral meatus. Covered by prepuce in uncircumcised males. Balanitis = balan/o + -itis = glans inflammation. Most commonly FORGOTTEN CF in Chapter 7.</td></tr>
+<tr><td class="mean">Gonads</td><td>Reproductive glands (gonad/o) &mdash; parenchymal tissue. Male gonads = testes. Dual function: gamete production (spermatogenesis) AND sex hormone secretion (testosterone). Regulated by FSH and LH from pituitary.</td></tr>
+<tr><td class="mean">Penis</td><td>Male external organ (pen/i, phall/o). Contains urethra. Three erectile bodies: two corpora cavernosa + one corpus spongiosum (surrounds urethra). Erection = blood fills erectile tissue. Male urethra = 15-20 cm.</td></tr>
+<tr><td class="mean">Prostate</td><td>Walnut-sized gland (prostat/o) surrounding urethra at bladder base. Produces alkaline prostatic fluid (~30% of semen), nourishes and protects sperm, produces PSA. BPH = benign enlargement compressing urethra.</td></tr>
+<tr><td class="mean">Scrotum</td><td>External skin pouch (scrot/o) containing testes. Maintains testes at ~34&deg;C (2-3&deg;C below body temp) &mdash; required for spermatogenesis. Cremasteric reflex: cold/touch &rarr; cremaster muscle pulls testes upward.</td></tr>
+<tr><td class="mean">Semen</td><td>Fluid ejaculated at orgasm (semin/i). Composition: spermatozoa + seminal vesicle secretions (~60%) + prostatic fluid (~30%) + bulbourethral (~5%). Volume: 2-5 mL. Alkaline pH (7.2-8.0) neutralizes vaginal acidity.</td></tr>
+<tr><td class="mean">Seminal vesicles</td><td>Paired glands (vesicul/o) posterior to bladder. Produce ~60% of semen &mdash; rich in fructose (energy for sperm) and prostaglandins. Vesiculitis = vesicul/o + -itis = seminal vesicle inflammation.</td></tr>
+<tr><td class="mean">Seminiferous tubules</td><td>Tiny coiled tubes (~250 m uncoiled) inside each testis where spermatogenesis occurs. Sertoli cells support developing sperm. Leydig cells (between tubules) produce testosterone.</td></tr>
+<tr><td class="mean">Spermatic cord</td><td>Bundle from deep inguinal ring to testis: vas deferens + testicular artery + pampiniform plexus veins + lymphatics + nerves. Testicular torsion = cord twists &rarr; surgical emergency (6-hour window).</td></tr>
+<tr><td class="mean">Spermatogenesis</td><td>Process (spermat/o + -genesis = production) of sperm production in seminiferous tubules. Begins at puberty, continuous. Regulated by FSH and testosterone. Takes ~74 days. Requires 34&deg;C.</td></tr>
+<tr><td class="mean">Spermatozoon</td><td>A single mature sperm cell (spermat/o, sperm/o). Plural: spermatozoa. Head (DNA + acrosome) + midpiece (mitochondria) + flagellum/tail (motility). Azoospermia = no sperm; oligospermia = too few.</td></tr>
+<tr><td class="mean">Testis</td><td>Male gonad (test/o, orchid/o, orchi/o, orch/o). Plural: testes. Dual function: spermatogenesis (in seminiferous tubules) + testosterone production (Leydig cells). Must be ~34&deg;C. Undescended = cryptorchidism.</td></tr>
+<tr><td class="mean">Testosterone</td><td>Primary male sex hormone (androgen) produced by Leydig cells. Functions: male secondary sex characteristics, spermatogenesis, libido, muscle mass, bone density. Regulated by LH from anterior pituitary.</td></tr>
+</tbody></table>
+
+</div>
+<div class="sec" id="tab-anatomy">
+
+<div class="pg">Detailed anatomy of each male reproductive structure with combining forms, clinical connections, and the sperm production process.</div>
+<div class="sec-hdr">Testis structure</div>
+<div class="card-grid">
+<div class="ccard"><span class="cwt" style="background:var(--bg-success);color:var(--text-success)">Seminiferous tubules</span><div class="ctitle">Where sperm are made</div><div class="cdef">~250 m of coiled tubes per testis. Spermatogenesis occurs here (~74 days). SERTOLI CELLS (nurse cells): support developing sperm, form blood-testis barrier, produce inhibin (suppresses FSH). Regulated by FSH.</div></div>
+<div class="ccard"><span class="cwt" style="background:var(--bg-warning);color:var(--text-warning)">Leydig cells</span><div class="ctitle">Where testosterone is made</div><div class="cdef">Interstitial cells BETWEEN tubules. Stimulated by LH &rarr; produce TESTOSTERONE &rarr; male secondary sex characteristics, spermatogenesis support, libido. Androgen hormone inhibitors (finasteride) block testosterone action.</div></div>
+<div class="ccard"><span class="cwt" style="background:var(--bg-info);color:var(--text-info)">Temperature regulation</span><div class="ctitle">Why testes are in the scrotum</div><div class="cdef">Spermatogenesis requires ~34&deg;C (2-3&deg; below body temp). Cryptorchidism = testis stays in abdomen at 37&deg;C &rarr; no spermatogenesis &rarr; infertility. Cremasteric reflex adjusts position with temperature.</div></div>
+</div>
+<div class="sec-hdr">Sperm maturation path</div>
+<div class="card-grid">
+<div class="ccard"><span class="cwt" style="background:var(--bg-success);color:var(--text-success)">Epididymis (epididym/o)</span><div class="ctitle">Maturation and storage (~6 m coiled)</div><div class="cdef">Sperm spend ~12 days gaining motility and fertilizing ability. Head, body, tail segments. Stores mature sperm until ejaculation. Epididymitis = inflammation: chlamydia/gonorrhea (&lt;35 yrs), E. coli (&gt;35 yrs).</div></div>
+<div class="ccard"><span class="cwt" style="background:var(--bg-info);color:var(--text-info)">Vas deferens (vas/o)</span><div class="ctitle">Transport tube (~45 cm)</div><div class="cdef">Muscular tube carrying sperm from epididymis to ejaculatory duct. Part of spermatic cord. VASECTOMY = cutting vas deferens = male sterilization. VASOVASOSTOMY = reconnects cut ends = vasectomy reversal.</div></div>
+<div class="ccard"><span class="cwt" style="background:var(--bg-warning);color:var(--text-warning)">Seminal vesicles (vesicul/o)</span><div class="ctitle">60% of semen volume</div><div class="cdef">Produce fructose (energy for sperm), prostaglandins, coagulating proteins. Join vas deferens &rarr; form ejaculatory duct. vesicul/o (seminal vesicle) &#8800; vesic/o (urinary bladder, Ch.6).</div></div>
+<div class="ccard"><span class="cwt" style="background:var(--bg-danger);color:var(--text-danger)">Prostate gland (prostat/o)</span><div class="ctitle">30% of semen volume</div><div class="cdef">Surrounds urethra at bladder base. Alkaline fluid neutralizes vaginal acidity; contains PSA. BPH = enlargement compressing urethra &rarr; urinary symptoms (urgency, weak stream, retention). Rx: alpha-blockers, TURP.</div></div>
+</div>
+<div class="sec-hdr">Penis structure</div>
+<div class="card-grid">
+<div class="ccard"><span class="cwt" style="background:var(--bg-info);color:var(--text-info)">pen/i, phall/o</span><div class="ctitle">Corpora cavernosa (&#215;2)</div><div class="cdef">Two paired erectile cylinders. Parasympathetic stimulation &rarr; arterioles dilate &rarr; sinusoids fill with blood &rarr; erection. Erectile dysfunction (ED) = inability to achieve or maintain erection sufficient for intercourse.</div></div>
+<div class="ccard"><span class="cwt" style="background:var(--bg-success);color:var(--text-success)">Corpus spongiosum</span><div class="ctitle">Contains the urethra</div><div class="cdef">Single erectile cylinder surrounding the urethra. Expands distally to form the GLANS PENIS (balan/o) &mdash; the rounded tip. Contains the external urethral meatus.</div></div>
+<div class="ccard"><span class="cwt" style="background:var(--bg-warning);color:var(--text-warning)">Prepuce / Foreskin (preputi/o)</span><div class="ctitle">Covers the glans</div><div class="cdef">Fold of skin covering glans penis in uncircumcised males. Circumcision (circum- + -cision) = surgical removal. Phimosis = prepuce too tight to retract. Paraphimosis = retracted prepuce cannot return = emergency.</div></div>
+</div>
+<div class="sec-hdr">The four testis combining forms</div>
+<div class="card-grid">
+<div class="ccard"><span class="cwt" style="background:var(--bg-success);color:var(--text-success)">orchid/o</span><div class="ctitle">Greek &mdash; full form</div><div class="cdef">Orchidectomy (testis removal), cryptorchidism (hidden testis). Full Greek form &mdash; most used in compound terms. The orchid flower was named for its testis-shaped tubers (Greek orchis = testis).</div></div>
+<div class="ccard"><span class="cwt" style="background:var(--bg-success);color:var(--text-success)">orchi/o</span><div class="ctitle">Greek &mdash; short form</div><div class="cdef">Orchiopexy (surgical fixation), orchiectomy (alternate testis removal). Commonly used interchangeably with orchid/o in clinical texts.</div></div>
+<div class="ccard"><span class="cwt" style="background:var(--bg-success);color:var(--text-success)">orch/o</span><div class="ctitle">Greek &mdash; shortest form</div><div class="cdef">Orchitis (orch/o + -itis = testis inflammation). Shortest form &mdash; seen in textbooks for brevity. Less common in compound terms.</div></div>
+<div class="ccard"><span class="cwt" style="background:var(--bg-info);color:var(--text-info)">test/o</span><div class="ctitle">Latin &mdash; for adjectives and hormones</div><div class="cdef">Testicular (pertaining to testis), testosterone (the testis hormone), testitis (testis inflammation). Latin origin used in anatomical/adjectival terms.</div></div>
+</div>
+
+</div>
+<div class="sec" id="tab-wordparts">
+
+<div class="pg">7 prefixes and 7 suffixes. Chapter 7 introduces several unique suffixes: <strong>-cision</strong> (cutting), <strong>-genesis</strong> (production), <strong>-spadias</strong> (opening), and <strong>-stomy</strong> (new opening).</div>
+<div class="sec-hdr">Prefixes (7)</div>
+<table class="dtable"><colgroup><col style="width:12%"><col style="width:22%"><col></colgroup>
+<thead><tr><th>Prefix</th><th>Meaning</th><th>Examples &amp; notes</th></tr></thead>
+<tbody>
+<tr><td class="wp">a-, an-</td><td class="mean">without, absence of</td><td>Anorchism (an- + orch/o + -ism = absence of testis); azoospermia (a- + zo/o + sperm/o = no sperm). an- before vowels, a- before consonants.</td></tr>
+<tr><td class="wp">circum-</td><td class="mean">around, surrounding</td><td>Circumcision (circum- + -cision = cutting around = removal of prepuce/foreskin). From Latin circumcidere = to cut around.</td></tr>
+<tr><td class="wp">crypt-</td><td class="mean">hidden, concealed</td><td>Cryptorchidism (crypt- + orchid/o + -ism = condition of hidden/undescended testis). Greek kryptos = hidden. Also: cryptorchism.</td></tr>
+<tr><td class="wp">hyper-</td><td class="mean">above, excessive, elevated</td><td>Benign prostatic hyperplasia (BPH: hyper- + -plasia = excessive non-cancerous prostate growth). Also: hypertension, hyperhidrosis.</td></tr>
+<tr><td class="wp">hypo-</td><td class="mean">below, under, deficient</td><td>Hypospadias (hypo- + -spadias = urethral meatus on UNDER/ventral surface of penis). Opposite: epispadias (epi- = upon = meatus on TOP).</td></tr>
+<tr><td class="wp">non-</td><td class="mean">not, without</td><td>Nongonococcal urethritis (NGU) = urethritis NOT from Neisseria gonorrhoeae. Most common cause: Chlamydia trachomatis. non- = NOT.</td></tr>
+<tr><td class="wp">trans-</td><td class="mean">through, across, beyond</td><td>TURP = transurethral resection of prostate &mdash; resection THROUGH the urethra, no external incision. Also: transdermal (Ch.4).</td></tr>
+</tbody></table>
+<div class="sec-hdr">Suffixes (7)</div>
+<table class="dtable"><colgroup><col style="width:12%"><col style="width:22%"><col></colgroup>
+<thead><tr><th>Suffix</th><th>Meaning</th><th>Examples &amp; notes</th></tr></thead>
+<tbody>
+<tr><td class="wp">-cision</td><td class="mean">cutting, a cut</td><td>Circumcision (circum- + -cision = cutting around). &#9888; -cision (act of cutting) vs -ectomy (surgical removal of organ/tissue).</td></tr>
+<tr><td class="wp">-ectomy</td><td class="mean">surgical removal</td><td>Prostatectomy (prostate removal), orchidectomy (testis removal), vasectomy (cuts/removes vas segment). Universal surgical suffix.</td></tr>
+<tr><td class="wp">-genesis</td><td class="mean">production, formation, origin</td><td>Spermatogenesis (spermat/o + -genesis = process of sperm production). &#9888; -genesis (process) vs -genic (pertaining to producing).</td></tr>
+<tr><td class="wp">-graphy</td><td class="mean">process of recording/imaging</td><td>Plethysmography (plethysm/o + -graphy = recording of volume changes). Epididymovesiculography. Universal imaging suffix.</td></tr>
+<tr><td class="wp">-itis</td><td class="mean">inflammation</td><td>Epididymitis, orchitis, prostatitis, vesiculitis, balanitis. All = combining form + -itis. Universal pathology suffix.</td></tr>
+<tr><td class="wp">-spadias</td><td class="mean">a rent, opening, split</td><td>Hypospadias (meatus on underside), epispadias (meatus on topside). From Greek spadon = a rent. Unique urological suffix.</td></tr>
+<tr><td class="wp">-stomy</td><td class="mean">surgical creation of a new opening</td><td>Vasovasostomy (new opening connecting cut vas ends = vasectomy reversal). &#9888; -stomy (new opening) &#8800; -tomy (incision only).</td></tr>
+</tbody></table>
+<div class="sec-hdr">&#9888; Key suffix distinctions</div>
+<div class="card-grid">
+<div class="ccard"><div class="ctitle">-cision vs -ectomy</div><div class="cdef">circum-CISION = the act of CUTTING around (the cutting technique itself). prostat-ECTOMY = REMOVAL of the prostate (an organ is excised). -cision describes the cutting action; -ectomy describes the surgical removal outcome.</div></div>
+<div class="ccard"><div class="ctitle">-stomy vs -tomy</div><div class="cdef">vasovasoSTOMY = creates a NEW PERMANENT OPENING/CONNECTION between two vas deferens ends. nephroTOMY = an INCISION into the kidney (temporary cut, no new permanent opening). -stomy makes a lasting connection; -tomy just cuts.</div></div>
+<div class="ccard"><div class="ctitle">hypo-spadias vs epi-spadias</div><div class="cdef">hypo-SPADIAS: urethral opening on UNDERSIDE (ventral/bottom) of penis. epi-SPADIAS: opening on TOPSIDE (dorsal/above). hypo- = below; epi- = upon/above. Both are congenital urethral placement errors.</div></div>
+<div class="ccard"><div class="ctitle">-genesis vs -genic</div><div class="cdef">spermatogeneSIS = the PROCESS of sperm production (noun &mdash; the event itself). spermatoGENIC = PERTAINING TO producing sperm (adjective &mdash; the quality). -genesis = a process (noun); -genic = producing (adjective).</div></div>
+</div>
+
+</div>
+<div class="sec" id="tab-combining">
+
+<div class="pg">Chapter 7 has 16 combining forms &mdash; the most so far. The testis has FOUR (orchid/o, orchi/o, orch/o, test/o). Most forgotten: <strong>balan/o</strong> = glans penis. Critical: vesicul/o (seminal vesicle) &#8800; vesic/o (urinary bladder, Ch.6).</div>
+<div class="sec-hdr">Core combining forms &mdash; PDF list (16)</div>
+<table class="dtable"><colgroup><col style="width:18%"><col style="width:20%"><col></colgroup>
+<thead><tr><th>Combining form</th><th>Meaning</th><th>Examples &amp; notes</th></tr></thead>
+<tbody>
+<tr><td class="wp">balan/o</td><td class="mean">glans penis</td><td>Balanitis (balan/o + -itis = glans penis inflammation). &#9888; MOST FORGOTTEN CF in Chapter 7. Memory: &ldquo;balan/o = the tip.&rdquo;</td></tr>
+<tr><td class="wp">epididym/o</td><td class="mean">epididymis</td><td>Epididymitis (inflammation &mdash; chlamydia in young men; E. coli in older men); epididymovesiculography. Coiled tube on posterior testis.</td></tr>
+<tr><td class="wp">olig/o</td><td class="mean">few, scanty, little</td><td>Oligospermia (olig/o + sperm/o + -ia = low sperm count, &lt;15 million/mL). Also Ch.6: oliguria (scanty urine).</td></tr>
+<tr><td class="wp">orchid/o, orchi/o, orch/o</td><td class="mean">testis (Greek &mdash; three forms)</td><td>Orchidectomy (removal), orchiopexy (fixation of undescended testis), orchitis (inflammation). Orchid flower named for testis-shaped tubers.</td></tr>
+<tr><td class="wp">pen/i</td><td class="mean">penis</td><td>Penile, penile plethysmography. Uses &lsquo;i&rsquo; as combining vowel. Context: pen/i = penis; pen = writing instrument.</td></tr>
+<tr><td class="wp">phall/o</td><td class="mean">penis</td><td>Phalloplasty (surgical reconstruction of penis). Greek phallos. Less common clinically than pen/i.</td></tr>
+<tr><td class="wp">plethysm/o</td><td class="mean">volume, enlargement</td><td>Plethysmography (recording of volume changes &mdash; penile blood flow for ED evaluation). Greek plethysmos = enlargement.</td></tr>
+<tr><td class="wp">preputi/o</td><td class="mean">prepuce, foreskin</td><td>Preputial (pertaining to prepuce); circumcision removes the prepuce. Phimosis = non-retractable prepuce. Also: posth/o.</td></tr>
+<tr><td class="wp">prostat/o</td><td class="mean">prostate gland</td><td>Prostatitis (inflammation), prostatectomy (removal), prostatic (adjective). &#9888; PROSTATE (gland) &#8800; PROSTRATE (lie face down)!</td></tr>
+<tr><td class="wp">scrot/o</td><td class="mean">scrotum</td><td>Scrotal (pertaining to scrotum). Maintains testicular temperature at ~34&deg;C for spermatogenesis.</td></tr>
+<tr><td class="wp">semin/i</td><td class="mean">semen, seed</td><td>Seminoma (malignant testicular germ cell tumor), seminiferous (bearing semen = seminiferous tubules). Uses &lsquo;i&rsquo; as combining vowel.</td></tr>
+<tr><td class="wp">sperm/o, spermat/o</td><td class="mean">sperm, spermatozoa</td><td>Spermatogenesis (spermat/o + -genesis = sperm production); azoospermia (a-); oligospermia (olig/o). Two forms, same meaning.</td></tr>
+<tr><td class="wp">test/o</td><td class="mean">testis (Latin)</td><td>Testicular (pertaining to testis), testosterone (testis hormone), testitis (testis inflammation). Latin &mdash; anatomical/adjectival terms.</td></tr>
+<tr><td class="wp">urethr/o</td><td class="mean">urethra</td><td>NGU (nongonococcal urethritis), TURP (transurethral). Male urethra serves both urinary AND reproductive functions. Same as Ch.6.</td></tr>
+<tr><td class="wp">vas/o</td><td class="mean">vas deferens, vessel, duct</td><td>Vasectomy (cut vas = sterilization), vasovasostomy (reconnect cut ends = reversal). Also: vascular (blood vessel) &mdash; context determines!</td></tr>
+<tr><td class="wp">vesicul/o</td><td class="mean">seminal vesicle</td><td>Vesiculitis (seminal vesicle inflammation). &#9888; vesicul/o (seminal vesicle) &#8800; vesic/o (urinary bladder, Ch.6). Different organs!</td></tr>
+</tbody></table>
+
+</div>
+<div class="sec" id="tab-clinical">
+
+<div class="pg">Clinical terms organized by category. Chapter 7 has high-yield congenital disorders, STIs, -itis terms, and the critical BPH/prostate disease cluster.</div>
+<div class="sec-hdr">Congenital disorders</div>
+<div class="cl-grid">
+<div class="cl-card"><div class="cl-term">Cryptorchidism</div><div class="cl-break">crypt- + orchid/o + -ism</div><div class="cl-def">Undescended testis &mdash; fails to descend into scrotum. Risks: infertility (heat &rarr; no spermatogenesis), increased testicular cancer risk (6&times;). Rx: orchiopexy before age 2.</div></div>
+<div class="cl-card"><div class="cl-term">Anorchism</div><div class="cl-break">an- + orch/o + -ism</div><div class="cl-def">Absence of one (monorchism) or both testes. Congenital or surgical. Bilateral = no testosterone &rarr; hormone replacement needed.</div></div>
+<div class="cl-card"><div class="cl-term">Hypospadias</div><div class="cl-break">hypo- + -spadias</div><div class="cl-def">Urethral meatus on UNDERSIDE (ventral) of penis. Congenital. Range: near tip to base. Rx: surgical urethroplasty. Opposite: epispadias (epi- = meatus on TOP).</div></div>
+<div class="cl-card"><div class="cl-term">Epispadias</div><div class="cl-break">epi- + -spadias</div><div class="cl-def">Urethral meatus on TOPSIDE (dorsal) of penis. Less common than hypospadias. Often associated with bladder exstrophy. epi- = upon/above.</div></div>
+<div class="cl-card"><div class="cl-term">Phimosis</div><div class="cl-break">preputi/o &mdash; tight foreskin</div><div class="cl-def">Non-retractable prepuce (foreskin too tight). Causes recurrent infections, urinary obstruction. Rx: topical steroids or circumcision. Paraphimosis = retracted prepuce trapped = emergency.</div></div>
+<div class="cl-card"><div class="cl-term">Chordee</div><div class="cl-break">congenital penile curvature</div><div class="cl-def">Congenital downward curvature of penis, often with hypospadias. Fibrous tissue replacing normal corpus spongiosum. Can cause painful erections. Rx: surgical correction.</div></div>
+</div>
+<div class="sec-hdr">Sperm &amp; semen disorders</div>
+<div class="cl-grid">
+<div class="cl-card"><div class="cl-term">Azoospermia</div><div class="cl-break">a- + zo/o + sperm/o + -ia</div><div class="cl-def">COMPLETE ABSENCE of sperm in semen. Obstructive (blocked vas/epididymis) or non-obstructive (spermatogenesis failure). Diagnosis: semen analysis. Most severe male infertility.</div></div>
+<div class="cl-card"><div class="cl-term">Oligospermia</div><div class="cl-break">olig/o + sperm/o + -ia</div><div class="cl-def">Low sperm count (&lt;15 million/mL). Most common cause of male infertility. Varicocele = #1 correctable cause (raises scrotal temperature). Aspermia = no semen ejaculate at all.</div></div>
+<div class="cl-card"><div class="cl-term">Aspermia</div><div class="cl-break">a- + sperm/o + -ia</div><div class="cl-def">Complete absence of semen (ejaculate). Different from azoospermia (no sperm in semen that is present). Causes: retrograde ejaculation, ejaculatory duct obstruction.</div></div>
+</div>
+<div class="sec-hdr">Structural disorders</div>
+<div class="cl-grid">
+<div class="cl-card"><div class="cl-term">Testicular torsion</div><div class="cl-break">spermatic cord twists</div><div class="cl-def">SURGICAL EMERGENCY &mdash; 6-hour window. Sudden severe scrotal pain, high-riding testis, ABSENT cremasteric reflex. Rx: emergency detorsion + bilateral orchiopexy (prevents future torsion on both sides).</div></div>
+<div class="cl-card"><div class="cl-term">Varicocele</div><div class="cl-break">varic/o + -cele</div><div class="cl-def">Dilated varicose veins of spermatic cord. &ldquo;Bag of worms.&rdquo; More common on LEFT. #1 CORRECTABLE cause of male infertility &mdash; raises scrotal temperature. Rx: varicocelectomy.</div></div>
+<div class="cl-card"><div class="cl-term">Hydrocele</div><div class="cl-break">hydr/o + -cele</div><div class="cl-def">Fluid accumulation in tunica vaginalis &rarr; scrotal swelling. Most common cause of painless scrotal swelling in newborns. Transilluminates (light passes through). Usually resolves spontaneously.</div></div>
+<div class="cl-card"><div class="cl-term">Erectile dysfunction (ED)</div><div class="cl-break">inability to achieve erection</div><div class="cl-def">Inability to achieve or maintain erection. Most common cause: vascular (atherosclerosis). Rx: PDE-5 inhibitors (sildenafil/Viagra, tadalafil/Cialis). Priapism = painful erection &gt;4 hrs = emergency.</div></div>
+<div class="cl-card"><div class="cl-term">Gynecomastia</div><div class="cl-break">gynec/o + mast/o + -ia</div><div class="cl-def">Benign male breast tissue enlargement. Estrogen/testosterone imbalance (puberty, liver disease, medications, testicular tumors). Usually bilateral. gynec/o (woman) + mast/o (breast).</div></div>
+</div>
+<div class="sec-hdr">Inflammation (-itis terms)</div>
+<div class="cl-grid">
+<div class="cl-card"><div class="cl-term">Balanitis</div><div class="cl-break">balan/o + -itis</div><div class="cl-def">Glans penis inflammation. Common in uncircumcised males. Most common cause: Candida. Rx: antifungal/antibiotics, improved hygiene; circumcision if recurrent.</div></div>
+<div class="cl-card"><div class="cl-term">Epididymitis</div><div class="cl-break">epididym/o + -itis</div><div class="cl-def">Epididymis inflammation. &lt;35 yrs: chlamydia/gonorrhea. &gt;35 yrs: E. coli. Gradual onset, fever, dysuria. &#9888; Must distinguish from testicular torsion (emergency). Rx: antibiotics.</div></div>
+<div class="cl-card"><div class="cl-term">Orchitis / Testitis</div><div class="cl-break">orch/o + -itis / test/o + -itis</div><div class="cl-def">Testis inflammation. Viral: mumps orchitis in 15-25% of postpubertal males &rarr; can cause infertility. Bacterial: usually from epididymis spread. Rx: treat underlying cause.</div></div>
+<div class="cl-card"><div class="cl-term">Prostatitis</div><div class="cl-break">prostat/o + -itis</div><div class="cl-def">Prostate inflammation. Types: acute bacterial (emergency &mdash; fever, systemic illness, perineal pain, dysuria), chronic bacterial, chronic pelvic pain syndrome (most common). Rx: antibiotics.</div></div>
+<div class="cl-card"><div class="cl-term">Vesiculitis</div><div class="cl-break">vesicul/o + -itis</div><div class="cl-def">Seminal vesicle inflammation. Usually occurs with prostatitis/epididymitis. Symptoms: hematospermia (blood in ejaculate), painful ejaculation, perineal pain. Rx: antibiotics.</div></div>
+</div>
+<div class="sec-hdr">Prostate disorders</div>
+<div class="cl-grid">
+<div class="cl-card"><div class="cl-term">BPH</div><div class="cl-break">hyper- + -plasia = excessive prostate growth</div><div class="cl-def">Benign prostatic hyperplasia &mdash; non-cancerous enlargement compressing urethra. LUTS: urgency, frequency, nocturia, weak stream, retention. Affects majority of men over 60. Rx: tamsulosin, finasteride, TURP.</div></div>
+<div class="cl-card"><div class="cl-term">PSA</div><div class="cl-break">prostate-specific antigen</div><div class="cl-def">Blood test measuring PSA protein produced by prostate cells. Elevated in BPH (mildly), prostatitis (significantly), prostate cancer. Normal: &lt;4 ng/mL. Used for prostate cancer screening (controversial).</div></div>
+<div class="cl-card"><div class="cl-term">Adenocarcinoma of prostate</div><div class="cl-break">most common male cancer</div><div class="cl-def">Most common cancer in men (excluding skin cancer). Arises from peripheral zone of prostate. Graded by Gleason score. Screening: DRE + PSA. Rx: active surveillance, prostatectomy, radiation, hormonal therapy.</div></div>
+</div>
+<div class="sec-hdr">Sexually transmitted infections (STIs)</div>
+<div class="cl-grid">
+<div class="cl-card"><div class="cl-term">Gonorrhea</div><div class="cl-break">Neisseria gonorrhoeae</div><div class="cl-def">Bacterial STI. Symptoms in males: purulent urethral discharge, dysuria. Can cause epididymitis. Dx: NAAT or Gram stain (gram-negative diplococci). Rx: ceftriaxone + doxycycline (dual therapy).</div></div>
+<div class="cl-card"><div class="cl-term">NGU (nongonococcal urethritis)</div><div class="cl-break">non- + gonococcal + urethr/o + -itis</div><div class="cl-def">Urethral inflammation NOT from gonorrhea. Most common cause: Chlamydia trachomatis (50%). Often asymptomatic. Rx: doxycycline or azithromycin. non- = NOT gonococcal.</div></div>
+<div class="cl-card"><div class="cl-term">Syphilis</div><div class="cl-break">Treponema pallidum</div><div class="cl-def">Stages: primary (painless chancre) &rarr; secondary (palms/soles rash) &rarr; latent &rarr; tertiary (neurosyphilis, aortitis). Dx: VDRL (screening), FTA-ABS (confirmatory). Rx: penicillin G (all stages).</div></div>
+<div class="cl-card"><div class="cl-term">HPV</div><div class="cl-break">human papillomavirus &mdash; most common STI</div><div class="cl-def">Most common STI. Low-risk types (6, 11): genital warts. High-risk types (16, 18): cervical, anal, penile, oropharyngeal cancers. Prevention: Gardasil 9 vaccine (ages 9-26, extend to 45). No cure; treat manifestations.</div></div>
+</div>
+
+</div>
+<div class="sec" id="tab-procedures">
+
+<div class="pg">Diagnostic procedures, therapeutic interventions, and pharmacology for the male reproductive system.</div>
+<div class="sec-hdr">Diagnostic procedures</div>
+<table class="dtable"><colgroup><col style="width:22%"><col style="width:78%"></colgroup>
+<thead><tr><th>Procedure</th><th>Definition &amp; notes</th></tr></thead>
+<tbody>
+<tr><td class="mean">DRE (digital rectal exam)</td><td>Palpation of prostate through rectal wall using gloved finger. Assesses prostate size, consistency, nodules. Abnormal: asymmetry, nodules, induration &rarr; suspicious for cancer. Done with PSA testing.</td></tr>
+<tr><td class="mean">PSA (prostate-specific antigen)</td><td>Blood test. Elevated in BPH, prostatitis, prostate cancer. Normal: &lt;4 ng/mL. Screening value is controversial (overdiagnosis debate). Additional metrics: PSA velocity, PSA density, free/total PSA ratio improve specificity.</td></tr>
+<tr><td class="mean">Transrectal sonography</td><td>Ultrasound probe via rectum &rarr; images prostate. Guides prostate needle biopsy for suspected cancer. Estimates prostate volume for BPH staging. Evaluates seminal vesicles.</td></tr>
+<tr><td class="mean">Sperm analysis (semen analysis)</td><td>Analyzes ejaculate: volume (&ge;1.5 mL), count (&ge;15 million/mL), motility (&ge;40%), morphology (&ge;4% normal forms). Diagnoses azoospermia, oligospermia, and other causes of male infertility.</td></tr>
+<tr><td class="mean">Penile plethysmography</td><td>plethysm/o + -graphy = recording of penile blood volume changes. Assesses erectile response for ED evaluation. Rigiscan: nocturnal tumescence monitoring &mdash; distinguishes psychological vs physiological ED.</td></tr>
+<tr><td class="mean">TSE (testicular self-exam)</td><td>Monthly self-examination of testes for lumps/changes. Primary screening for testicular cancer &mdash; most common cancer in males ages 15-35. Technique: warm shower (relaxes scrotum), gently roll each testis between thumb and fingers.</td></tr>
+<tr><td class="mean">VDRL &amp; FTA-ABS</td><td>Syphilis tests. VDRL = screening (non-specific). FTA-ABS = confirmatory (specific for Treponema pallidum antibodies). Gram stain: identifies gonorrhea (gram-negative intracellular diplococci) from urethral discharge.</td></tr>
+</tbody></table>
+<div class="sec-hdr">Therapeutic procedures</div>
+<table class="dtable"><colgroup><col style="width:22%"><col style="width:78%"></colgroup>
+<thead><tr><th>Procedure</th><th>Definition &amp; notes</th></tr></thead>
+<tbody>
+<tr><td class="mean">Vasectomy</td><td>vas/o + -ectomy = surgical CUTTING/REMOVAL of vas deferens segment &rarr; male sterilization. Outpatient, local anesthesia. Does NOT affect testosterone, libido, or ejaculate volume (sperm = ~5% of semen). &gt;99.9% effective.</td></tr>
+<tr><td class="mean">Vasovasostomy</td><td>vas/o + vas/o + -stomy = NEW OPENING connecting the two cut vas ends = vasectomy REVERSAL. Microsurgical anastomosis. Success: ~90% if &lt;3 years; ~30% if &gt;15 years post-vasectomy. Semen analysis confirms success.</td></tr>
+<tr><td class="mean">TURP</td><td>Transurethral resection of prostate &mdash; trans- (through) + urethr/o + resection. Gold standard BPH surgery. Resectoscope via urethra &rarr; no external incision. Removes obstructing tissue. Side effects: retrograde ejaculation (most common), impotence.</td></tr>
+<tr><td class="mean">TUIP</td><td>Transurethral incision of prostate &mdash; makes incisions in prostate/bladder neck rather than removing tissue. For smaller prostates. Lower retrograde ejaculation rate than TURP.</td></tr>
+<tr><td class="mean">Prostatectomy</td><td>prostat/o + -ectomy = prostate REMOVAL. Radical (entire prostate + seminal vesicles + lymph nodes) for cancer. Robotic-assisted laparoscopic (RALP) most common approach. Side effects: incontinence, erectile dysfunction.</td></tr>
+<tr><td class="mean">Orchidectomy / Orchiectomy</td><td>orchid/o + -ectomy = testis REMOVAL. Radical INGUINAL approach (via groin) for testicular cancer. Bilateral = castration &rarr; no testosterone. Castration also used for advanced prostate cancer treatment.</td></tr>
+<tr><td class="mean">Orchiopexy</td><td>orchi/o + -pexy = surgical FIXATION of undescended testis into scrotum. For cryptorchidism, ideally before age 2. Also performed bilaterally after testicular torsion to prevent recurrence on other side.</td></tr>
+<tr><td class="mean">Circumcision</td><td>circum- + -cision = surgical removal of prepuce (foreskin). Most common neonatal surgical procedure in US. Benefits: reduced UTI, STI (HIV, HPV), phimosis, penile cancer. Also religious/cultural practice.</td></tr>
+</tbody></table>
+<div class="sec-hdr">Pharmacology</div>
+<div class="card-grid">
+<div class="ccard"><span class="cwt" style="background:var(--bg-info);color:var(--text-info)">Alpha-adrenergic inhibitors</span><div class="cdef">Relax smooth muscle of prostate and bladder neck &rarr; reduce BPH urinary symptoms. Examples: tamsulosin (Flomax), doxazosin. First-line for symptomatic BPH. Work quickly (days). Side effect: orthostatic hypotension.</div></div>
+<div class="ccard"><span class="cwt" style="background:var(--bg-success);color:var(--text-success)">Androgen hormone inhibitors</span><div class="cdef">5-alpha reductase inhibitors (finasteride, dutasteride) block testosterone &rarr; DHT conversion &rarr; reduce prostate size over months. For BPH and prostate cancer. Side effects: sexual dysfunction, gynecomastia.</div></div>
+<div class="ccard"><span class="cwt" style="background:var(--bg-warning);color:var(--text-warning)">Antiimpotence agents (PDE-5 inhibitors)</span><div class="cdef">Sildenafil (Viagra), tadalafil (Cialis), vardenafil. Block PDE-5 &rarr; increased cGMP &rarr; penile smooth muscle relaxation &rarr; erection (requires sexual stimulation). &#9888; Contraindicated with nitrates (severe hypotension).</div></div>
+<div class="ccard"><span class="cwt" style="background:var(--bg-danger);color:var(--text-danger)">Antibiotics &amp; antivirals</span><div class="cdef">STI treatment: ceftriaxone (gonorrhea), doxycycline/azithromycin (chlamydia/NGU), penicillin G (syphilis). Antivirals: acyclovir, valacyclovir (herpes genitalis). Antifungals: clotrimazole, miconazole (balanitis from Candida).</div></div>
+</div>
+
+</div>
+<div class="sec" id="tab-flashcards">
+<div class="fc-controls">
+<select class="fc-sel" id="fc-cat" onchange="initFC()">
+<option value="all">All categories</option>
+<option value="prefix">Prefixes</option>
+<option value="suffix">Suffixes</option>
+<option value="combining">Combining forms</option>
+<option value="clinical">Clinical terms</option>
+<option value="ap">A&amp;P terms</option>
+</select>
+<button class="btn" onclick="shuffleFC()">Shuffle</button>
+<span class="fc-prog" id="fc-prog">&mdash;</span>
+</div>
+<div class="flashcard" id="flashcard" onclick="flipFC()">
+<span class="fc-badge" id="fc-badge"></span>
+<div class="fc-front" id="fc-front"></div>
+<div class="fc-back" id="fc-back"><div class="meaning" id="fc-meaning"></div><div class="example" id="fc-example"></div></div>
+<div class="fc-hint" id="fc-hint">click to reveal</div>
+</div>
+<div class="fc-actions">
+<button class="btn btn-no" onclick="markFC(false)">&#10005; Still learning</button>
+<button class="btn btn-ok" onclick="markFC(true)">&#10003; Got it</button>
+<button class="btn" onclick="prevFC()">&larr; Prev</button>
+<button class="btn" onclick="nextFC()">Next &rarr;</button>
+</div>
+<div class="fc-score" id="fc-score"></div>
+</div>
+
+<div class="sec" id="tab-quiz">
+<div id="quiz-wrap">
+<div class="quiz-q" id="quiz-q"></div>
+<div class="quiz-opts" id="quiz-opts"></div>
+<div class="qfb" id="quiz-fb"></div>
+<button class="btn" id="quiz-next" onclick="nextQ()" style="display:none">Next &rarr;</button>
+<div class="qctr" id="quiz-ctr"></div>
+</div>
+<div id="quiz-done" style="display:none">
+<div class="score-wrap"><div class="score-num" id="quiz-final"></div><div class="score-lbl">correct answers</div>
+<div style="display:flex;gap:8px;justify-content:center;margin-top:1rem"><button class="btn" onclick="startQuiz()">Try again</button></div>
+</div>
+</div>
+</div>
+</div></div>
+<script>
+var TM={prefix:{label:"Prefix",bg:"#fff8e1",c:"#854F0B"},suffix:{label:"Suffix",bg:"#e6f4ea",c:"#1b5e20"},combining:{label:"Combining",bg:"#e8f0fc",c:"#1a5c9c"},clinical:{label:"Clinical",bg:"#fce8e8",c:"#9c2020"},ap:{label:"A&P",bg:"#f4f8f6",c:"#555555"}};
+var DATA=[
+  {term:"a-, an-",type:"prefix",meaning:"without, absence of",extra:"Anorchism (no testis), azoospermia (no sperm). an- before vowels, a- before consonants."},
+  {term:"circum-",type:"prefix",meaning:"around, surrounding",extra:"Circumcision (circum- + -cision = cutting around = removal of prepuce/foreskin)."},
+  {term:"crypt-",type:"prefix",meaning:"hidden, concealed",extra:"Cryptorchidism (crypt- + orchid/o + -ism = condition of hidden undescended testis)."},
+  {term:"hyper-",type:"prefix",meaning:"above, excessive, elevated",extra:"BPH = benign prostatic hyperplasia (hyper- + -plasia = excessive non-cancerous prostate growth)."},
+  {term:"hypo-",type:"prefix",meaning:"below, under, deficient",extra:"Hypospadias (hypo- + -spadias = urethral opening on UNDER/ventral surface of penis). Opposite: epispadias."},
+  {term:"non-",type:"prefix",meaning:"not, without",extra:"NGU = nongonococcal urethritis (urethritis NOT from gonorrhea). Most common cause: Chlamydia."},
+  {term:"trans-",type:"prefix",meaning:"through, across, beyond",extra:"TURP = transurethral resection of prostate - surgical resection THROUGH the urethra, no external incision."},
+  {term:"-cision",type:"suffix",meaning:"cutting, a cut",extra:"Circumcision (circum- + -cision = cutting around). Different from -ectomy (surgical removal of organ)."},
+  {term:"-ectomy",type:"suffix",meaning:"surgical removal",extra:"Prostatectomy (prostate removal), orchidectomy (testis removal). Universal surgical removal suffix."},
+  {term:"-genesis",type:"suffix",meaning:"production, formation, origin",extra:"Spermatogenesis (spermat/o + -genesis = process of sperm production). -genesis = the process noun."},
+  {term:"-graphy",type:"suffix",meaning:"process of recording/imaging",extra:"Plethysmography (recording of volume changes for ED assessment). Universal imaging suffix."},
+  {term:"-itis",type:"suffix",meaning:"inflammation",extra:"Epididymitis, orchitis, prostatitis, vesiculitis, balanitis. Universal pathology suffix."},
+  {term:"-spadias",type:"suffix",meaning:"a rent, opening, split",extra:"Hypospadias (meatus on underside), epispadias (meatus on topside). Unique urological suffix."},
+  {term:"-stomy",type:"suffix",meaning:"surgical creation of a new opening",extra:"Vasovasostomy (new connection between cut vas deferens ends = vasectomy reversal). Not same as -tomy (incision only)."},
+  {term:"balan/o",type:"combining",meaning:"glans penis",extra:"Balanitis (glans penis inflammation). MOST FORGOTTEN CF in Chapter 7. Memory: balan/o = the tip."},
+  {term:"epididym/o",type:"combining",meaning:"epididymis",extra:"Epididymitis (inflammation - chlamydia in young men, E. coli in older men). Coiled tube on posterior testis."},
+  {term:"olig/o",type:"combining",meaning:"few, scanty, little",extra:"Oligospermia (olig/o + sperm/o + -ia = low sperm count, less than 15 million/mL)."},
+  {term:"orchid/o, orchi/o, orch/o",type:"combining",meaning:"testis (Greek - three forms)",extra:"Orchidectomy (removal), orchiopexy (fixation of undescended testis), orchitis (inflammation)."},
+  {term:"pen/i",type:"combining",meaning:"penis",extra:"Penile (pertaining to penis), penile plethysmography. Uses i as combining vowel."},
+  {term:"phall/o",type:"combining",meaning:"penis",extra:"Phalloplasty (surgical reconstruction of penis). From Greek phallos. Less common clinically than pen/i."},
+  {term:"plethysm/o",type:"combining",meaning:"volume, enlargement",extra:"Plethysmography (recording of penile blood volume changes for ED evaluation)."},
+  {term:"preputi/o",type:"combining",meaning:"prepuce, foreskin",extra:"Preputial (pertaining to prepuce). Removed in circumcision. Phimosis = non-retractable prepuce."},
+  {term:"prostat/o",type:"combining",meaning:"prostate gland",extra:"Prostatitis (inflammation), prostatectomy (removal). PROSTATE (gland) not PROSTRATE (lie down)!"},
+  {term:"scrot/o",type:"combining",meaning:"scrotum",extra:"Scrotal (pertaining to scrotum). Maintains testicular temperature at approximately 34 degrees C."},
+  {term:"semin/i",type:"combining",meaning:"semen, seed",extra:"Seminoma (malignant testicular tumor), seminiferous (bearing semen = seminiferous tubules). Uses i."},
+  {term:"sperm/o, spermat/o",type:"combining",meaning:"sperm, spermatozoa",extra:"Spermatogenesis (spermat/o), azoospermia (a- = no sperm), oligospermia (olig/o = low sperm count)."},
+  {term:"test/o",type:"combining",meaning:"testis (Latin)",extra:"Testicular (pertaining to testis), testosterone (testis hormone), testitis (testis inflammation)."},
+  {term:"urethr/o",type:"combining",meaning:"urethra",extra:"NGU = nongonococcal urethritis, TURP = transurethral. Male urethra serves both urinary and reproductive functions."},
+  {term:"vas/o",type:"combining",meaning:"vas deferens, vessel, duct",extra:"Vasectomy (cut vas = sterilization), vasovasostomy (reconnect cut ends = reversal). Also: vascular."},
+  {term:"vesicul/o",type:"combining",meaning:"seminal vesicle",extra:"Vesiculitis (seminal vesicle inflammation). vesicul/o (seminal vesicle) is NOT vesic/o (urinary bladder Ch.6)!"},
+  {term:"Cryptorchidism",type:"clinical",meaning:"crypt- + orchid/o + -ism = condition of hidden undescended testis",extra:"Risks: infertility (heat), 6x testicular cancer risk. Rx: orchiopexy before age 2."},
+  {term:"Azoospermia",type:"clinical",meaning:"a- + zo/o + sperm/o + -ia = complete absence of sperm in semen",extra:"Obstructive or non-obstructive. Most severe male infertility. Diagnosis: semen analysis."},
+  {term:"Oligospermia",type:"clinical",meaning:"olig/o + sperm/o + -ia = low sperm count (less than 15 million/mL)",extra:"Most common cause of male infertility. Varicocele = number 1 correctable cause."},
+  {term:"Anorchism",type:"clinical",meaning:"an- + orch/o + -ism = absence of one or both testes",extra:"Bilateral = no testosterone production, hormone replacement required."},
+  {term:"Hypospadias",type:"clinical",meaning:"hypo- + -spadias = urethral meatus on underside of penis",extra:"Congenital. Opposite of epispadias (epi- = upon = meatus on top of penis)."},
+  {term:"Phimosis",type:"clinical",meaning:"non-retractable prepuce (foreskin too tight to retract)",extra:"Causes infections, urinary obstruction. Rx: topical steroids or circumcision."},
+  {term:"Balanitis",type:"clinical",meaning:"balan/o + -itis = inflammation of the glans penis",extra:"Common in uncircumcised males. Most common cause: Candida. Rx: antifungal, improved hygiene."},
+  {term:"Epididymitis",type:"clinical",meaning:"epididym/o + -itis = inflammation of the epididymis",extra:"Under 35: chlamydia/gonorrhea. Over 35: E. coli. Must distinguish from testicular torsion (emergency)."},
+  {term:"Testicular torsion",type:"clinical",meaning:"spermatic cord twists, cutting blood supply. SURGICAL EMERGENCY - 6-hour window.",extra:"Sudden severe scrotal pain, high-riding testis, absent cremasteric reflex. Bilateral orchiopexy."},
+  {term:"Varicocele",type:"clinical",meaning:"varic/o + -cele = dilated varicose veins of spermatic cord",extra:"Number 1 correctable cause of male infertility. More common on left. Raises scrotal temperature."},
+  {term:"BPH",type:"clinical",meaning:"hyper- + -plasia = benign non-cancerous excessive growth of prostate",extra:"Compresses urethra. LUTS: urgency, weak stream, retention. Rx: alpha-blockers, TURP."},
+  {term:"Vasectomy",type:"clinical",meaning:"vas/o + -ectomy = surgical cutting of vas deferens for male sterilization",extra:"Does NOT affect testosterone, libido, or ejaculate volume (sperm is only 5% of semen)."},
+  {term:"Vasovasostomy",type:"clinical",meaning:"vas/o + vas/o + -stomy = vasectomy reversal (reconnects cut vas deferens ends)",extra:"Microsurgical. Success: approximately 90% if under 3 years; 30% if over 15 years post-vasectomy."},
+  {term:"TURP",type:"clinical",meaning:"transurethral resection of prostate - gold standard BPH surgery through urethra",extra:"trans- (through) urethr/o (urethra). No external incision. Side effect: retrograde ejaculation."},
+  {term:"Prostatectomy",type:"clinical",meaning:"prostat/o + -ectomy = surgical removal of the prostate",extra:"Radical (entire prostate plus seminal vesicles plus lymph nodes) for cancer. RALP most common."},
+  {term:"Circumcision",type:"clinical",meaning:"circum- + -cision = surgical removal of prepuce/foreskin",extra:"Most common neonatal surgical procedure in US. Reduces UTI, STI, phimosis risk."},
+  {term:"NGU",type:"clinical",meaning:"nongonococcal urethritis = urethral inflammation NOT from gonorrhea",extra:"Most common cause: Chlamydia trachomatis (50%). non- = NOT gonococcal. Rx: doxycycline."},
+  {term:"PSA",type:"clinical",meaning:"prostate-specific antigen = blood test for prostate health screening",extra:"Elevated in BPH, prostatitis, prostate cancer. Normal less than 4 ng/mL."},
+  {term:"Orchiopexy",type:"clinical",meaning:"orchi/o + -pexy = surgical fixation of undescended testis into scrotum",extra:"For cryptorchidism - ideally before age 2. Also done bilaterally after testicular torsion repair."},
+  {term:"Testis",type:"ap",meaning:"Male gonad with four combining forms: orchid/o, orchi/o, orch/o (Greek), test/o (Latin)",extra:"Dual function: spermatogenesis (seminiferous tubules) + testosterone production (Leydig cells)."},
+  {term:"Epididymis",type:"ap",meaning:"Coiled tube (epididym/o) on posterior testis - sperm maturation and storage",extra:"Approximately 12 days for sperm to gain motility and fertilizing ability."},
+  {term:"Prostate",type:"ap",meaning:"Walnut-sized gland (prostat/o) surrounding urethra at bladder base",extra:"Produces 30% of semen - alkaline fluid neutralizes vaginal acidity. Produces PSA. BPH = enlargement."},
+  {term:"Semen",type:"ap",meaning:"Fluid ejaculated at orgasm (semin/i) containing sperm and gland secretions",extra:"60% seminal vesicles + 30% prostate + 5% bulbourethral + sperm. pH alkaline (7.2-8.0)."},
+  {term:"Testosterone",type:"ap",meaning:"Primary male sex hormone produced by Leydig cells of the testes",extra:"Functions: male secondary sex characteristics, spermatogenesis, libido, muscle mass, bone density."},
+  {term:"Spermatogenesis",type:"ap",meaning:"spermat/o + -genesis = process of sperm production in seminiferous tubules",extra:"Begins at puberty, continuous. Takes approximately 74 days. Requires 34 degrees C."}
+];
+var fcCards=[],fcIdx=0,fcFlipped=false,fcGot=new Set(),fcNope=new Set();
+var quizQs=[],quizIdx=0,quizScore=0,quizAnswered=false;
+function showTab(id,btn){
+  var secs=document.querySelectorAll('.sec');for(var i=0;i<secs.length;i++)secs[i].classList.remove('active');
+  var btns=document.querySelectorAll('.tab-btn');for(var i=0;i<btns.length;i++)btns[i].classList.remove('active');
+  document.getElementById('tab-'+id).classList.add('active');btn.classList.add('active');
+  if(id==='flashcards'&&fcCards.length===0)initFC();if(id==='quiz')startQuiz();
+}
+function initFC(){var cat=document.getElementById('fc-cat').value;fcCards=cat==='all'?DATA.slice():DATA.filter(function(d){return d.type===cat;});fcCards.sort(function(){return Math.random()-0.5;});fcIdx=0;fcFlipped=false;fcGot=new Set();fcNope=new Set();showCard();}
+function showCard(){if(!fcCards.length)return;var c=fcCards[fcIdx],m=TM[c.type];var b=document.getElementById('fc-badge');b.textContent=m.label;b.style.background=m.bg;b.style.color=m.c;document.getElementById('fc-front').textContent=c.term;document.getElementById('fc-meaning').textContent=c.meaning;document.getElementById('fc-example').textContent=c.extra?'Note: '+c.extra:'';document.getElementById('fc-front').style.display='block';document.getElementById('fc-back').style.display='none';document.getElementById('fc-hint').style.display='block';fcFlipped=false;document.getElementById('fc-prog').textContent='Card '+(fcIdx+1)+' of '+fcCards.length;updScore();}
+function flipFC(){if(fcFlipped)return;fcFlipped=true;document.getElementById('fc-front').style.display='none';document.getElementById('fc-back').style.display='block';document.getElementById('fc-hint').style.display='none';}
+function markFC(ok){if(ok)fcGot.add(fcIdx);else fcNope.add(fcIdx);nextFC();}
+function nextFC(){fcIdx=(fcIdx+1)%fcCards.length;showCard();}
+function prevFC(){fcIdx=(fcIdx-1+fcCards.length)%fcCards.length;showCard();}
+function shuffleFC(){fcCards.sort(function(){return Math.random()-0.5;});fcIdx=0;showCard();}
+function updScore(){document.getElementById('fc-score').innerHTML='<span style="color:#1b5e20">&#10003; '+fcGot.size+' got it</span> &nbsp; <span style="color:#9c2020">&#10007; '+fcNope.size+' still learning</span> &nbsp; <span style="color:#888">'+(fcCards.length-fcGot.size-fcNope.size)+' unseen</span>';}
+function shuffle(a){return a.slice().sort(function(){return Math.random()-0.5;});}
+function startQuiz(){document.getElementById('quiz-wrap').style.display='block';document.getElementById('quiz-done').style.display='none';quizQs=shuffle(DATA).slice(0,15);quizIdx=0;quizScore=0;quizAnswered=false;showQ();}
+function showQ(){if(quizIdx>=quizQs.length){endQuiz();return;}var q=quizQs[quizIdx];document.getElementById('quiz-q').textContent='What does '+q.term+' mean?';document.getElementById('quiz-fb').textContent='';document.getElementById('quiz-next').style.display='none';document.getElementById('quiz-ctr').textContent='Question '+(quizIdx+1)+' of '+quizQs.length;var others=shuffle(DATA.filter(function(d){return d.term!==q.term;})).slice(0,3);var opts=shuffle([q.meaning].concat(others.map(function(d){return d.meaning;})));var h='';for(var i=0;i<opts.length;i++)h+='<button class="qopt" onclick="checkA(this)">'+opts[i]+'</button>';document.getElementById('quiz-opts').innerHTML=h;document.getElementById('quiz-opts').setAttribute('data-correct',q.meaning);quizAnswered=false;}
+function checkA(btn){if(quizAnswered)return;quizAnswered=true;var correct=document.getElementById('quiz-opts').getAttribute('data-correct');var all=document.querySelectorAll('.qopt');for(var i=0;i<all.length;i++){all[i].disabled=true;if(all[i].textContent.trim()===correct.trim())all[i].classList.add('correct');}var fb=document.getElementById('quiz-fb');if(btn.textContent.trim()===correct.trim()){quizScore++;fb.textContent='Correct!';fb.style.color='#1b5e20';}else{btn.classList.add('wrong');fb.textContent='Correct: '+correct;fb.style.color='#9c2020';}document.getElementById('quiz-next').style.display='inline-block';}
+function nextQ(){quizIdx++;showQ();}
+function endQuiz(){document.getElementById('quiz-wrap').style.display='none';document.getElementById('quiz-done').style.display='block';document.getElementById('quiz-final').textContent=quizScore+' / '+quizQs.length;}
+window.onload=function(){document.getElementById('quiz-wrap').style.display='block';};
+</script>
+</body>
+</html>
